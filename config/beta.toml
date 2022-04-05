@@ -1,0 +1,5 @@
+workspace = "beta"
+
+[server]
+port = 8089
+shutdown_timeout_in_second = 30

@@ -15,5 +15,5 @@ func RegisterRoutes(e *echo.Echo) {
 }
 
 func RespondNoContentHandler(c echo.Context) error {
-	return c.NoContent(http.StatusOK)
+	return c.NoContent(http.StatusNoContent)
 }
